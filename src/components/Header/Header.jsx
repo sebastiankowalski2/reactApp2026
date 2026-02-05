@@ -3,8 +3,8 @@ import './Header.css'
 function Header() {
   return (
     <header>
-      <h1 className="title">Welcome to My React App</h1>
-      <p className="subtitle">Siemanko, grypsujesz?</p>
+      <p className="subtitle">🌍</p>
+      <h1 className="title">my travel journal.</h1>
     </header>
   )
 }

@@ -1,0 +1,63 @@
+section {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 2em;
+  width: 80%;
+  max-width: 80%;
+}
+
+.landscapeContainer {
+  display: flex;
+  width: 80%;
+  max-width: 80%;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2em;
+}
+
+.imgDiv {
+  width: 25%;
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: 1em;
+  align-items: center;
+}
+
+.imgProp {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contentDiv {
+  font-size: 1em;
+  width: 70%;
+  text-align: left;
+  padding: 0 1em 1em 1em;
+}
+
+.contentDiv a {
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  font-family: Inter, sans-serif;
+  color: black;
+}
+
+.contentDiv p {
+  font-size: 0.8em;
+  font-family: Inter, sans-serif;
+  color: black;
+}
+
+.pGoogle {
+  color: grey;
+  margin-left: 0.6em;
+  text-decoration: underline;
+}
